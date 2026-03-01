@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2C87B8"/>
+      <stop offset="70%" stop-color="#1F5F86"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1F5F86"/>
+      <stop offset="100%" stop-color="#0f2744"/>
+    </linearGradient>
+  </defs>
+  <!-- Background: rounded rect -->
+  <rect width="32" height="32" rx="7" fill="url(#sky)"/>
+  <!-- Sun rays (subtle) -->
+  <circle cx="23" cy="8" r="5" fill="#F7C948" opacity="0.25"/>
+  <!-- Sun -->
+  <circle cx="23" cy="8" r="3.5" fill="#F39C34"/>
+  <!-- Mast -->
+  <rect x="11" y="5.5" width="1.4" height="13.5" rx="0.5" fill="white" opacity="0.9"/>
+  <!-- Main sail -->
+  <path d="M12.4 6.5 L23 12.5 L12.4 18.5 Z" fill="white" opacity="0.92"/>
+  <!-- Hull body -->
+  <path d="M5.5 19 L26.5 19 Q27.5 19 27 21 L6 21 Q5 21 5.5 19 Z" fill="#0f2744"/>
+  <!-- Hull keel accent -->
+  <path d="M7 21 L25 21 Q23 23.5 13 23.5 Q7 23.5 7 21 Z" fill="#F39C34"/>
+  <!-- Water layer -->
+  <rect x="0" y="24.5" width="32" height="7.5" rx="0" fill="url(#sea)" opacity="0.85"/>
+  <!-- Wave 1 -->
+  <path d="M0 25.5 Q4 24 8 25.5 Q12 27 16 25.5 Q20 24 24 25.5 Q28 27 32 25.5" stroke="white" stroke-width="0.8" fill="none" opacity="0.45"/>
+  <!-- Wave 2 -->
+  <path d="M0 27.5 Q4 26.2 8 27.5 Q12 28.8 16 27.5 Q20 26.2 24 27.5 Q28 28.8 32 27.5" stroke="white" stroke-width="0.7" fill="none" opacity="0.3"/>
+</svg>

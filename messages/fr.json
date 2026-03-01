@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "carRental": "Location de Voiture",
+    "taxiTransfer": "Transfert Taxi",
+    "safari": "Safari",
+    "excursion": "Excursion",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle1": "Votre Guide",
+    "heroTitle2": "Francophone",
+    "heroTitle3": "à Zanzibar",
+    "heroSubtitle": "Guide local francophone — J'organise toutes les activités à Zanzibar et en Tanzanie. Excursions, safaris, transferts et plus.",
+    "heroCta": "Découvrir nos excursions",
+    "why1Title": "Authenticité",
+    "why1Desc": "Vivez Zanzibar comme un local avec des aventures riches en culture, loin des circuits touristiques classiques.",
+    "why2Title": "Expertise",
+    "why2Desc": "Guide francophone expérimenté connaissant chaque recoin caché de l'île et de la Tanzanie.",
+    "why3Title": "Flexibilité",
+    "why3Desc": "Excursions personnalisées selon vos envies, votre rythme et votre budget.",
+    "whyTitle": "Pourquoi Choisir AlSham Guide ?",
+    "whySubtitle": "L'expérience Zanzibar par un expert local francophone",
+    "toursTitle": "Nos Excursions Phares",
+    "toursSubtitle": "Les meilleures activités à Zanzibar",
+    "toursCta": "Voir toutes les excursions",
+    "safariTitle": "Nos Safaris en Tanzanie",
+    "safariSubtitle": "Quittez la plage et entrez dans la savane",
+    "safariCta": "Voir tous les safaris",
+    "contactTitle": "Prêt à Partir ?",
+    "contactSubtitle": "Contactez-moi directement pour organiser votre aventure",
+    "contactWhatsapp": "WhatsApp",
+    "contactCall": "Appeler"
+  },
+  "excursion": {
+    "pageTitle": "Excursions à Zanzibar",
+    "pageSubtitle": "Découvrez les plus belles activités de l'île",
+    "viewDetails": "Voir Détails",
+    "bookNow": "Réserver",
+    "pricePerPerson": "/ personne",
+    "duration": "Durée",
+    "gallery": "Galerie Photos",
+    "included": "Inclus",
+    "relatedTitle": "Autres Excursions",
+    "backToList": "← Retour aux excursions"
+  },
+  "safari": {
+    "pageTitle": "Safaris depuis Zanzibar",
+    "pageSubtitle": "Quittez la plage et entrez dans la savane africaine",
+    "day": "Jour",
+    "nights": "Nuits",
+    "days": "Jours",
+    "bookSafari": "Réserver ce Safari",
+    "included": "Ce qui est inclus",
+    "itinerary": "Programme"
+  },
+  "carRental": {
+    "pageTitle": "Location de Voiture",
+    "pageSubtitle": "Explorez Zanzibar à votre rythme",
+    "perDay": "/ jour",
+    "withDriver": "Avec Chauffeur",
+    "withoutDriver": "Sans Chauffeur",
+    "bookVehicle": "Réserver ce Véhicule"
+  },
+  "taxiTransfer": {
+    "pageTitle": "Transfert Taxi",
+    "pageSubtitle": "Transferts fiables et confortables à Zanzibar",
+    "bookTransfer": "Réserver un Transfert"
+  },
+  "contact": {
+    "pageTitle": "Contactez-Nous",
+    "pageSubtitle": "Je suis disponible pour organiser votre aventure à Zanzibar",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "whatsapp": "WhatsApp",
+    "sendMessage": "Envoyer un Message",
+    "nameLabel": "Votre Nom",
+    "emailLabel": "Votre Email",
+    "messageLabel": "Votre Message",
+    "submitBtn": "Envoyer"
+  },
+  "booking": {
+    "title": "Réserver ce Tour",
+    "subtitle": "Remplissez le formulaire et je vous contacterai rapidement",
+    "fullName": "Nom Complet",
+    "fullNamePlaceholder": "Votre nom complet",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+33 6 00 00 00 00",
+    "people": "Nombre de Personnes",
+    "date": "Date Souhaitée",
+    "country": "Pays",
+    "countryPlaceholder": "Votre pays de résidence",
+    "specialRequests": "Demandes Spéciales",
+    "specialRequestsPlaceholder": "Allergies, besoins particuliers, questions...",
+    "submitWhatsapp": "Envoyer via WhatsApp",
+    "submitEmail": "Envoyer par Email",
+    "required": "Champ obligatoire",
+    "close": "Fermer"
+  },
+  "footer": {
+    "description": "Guide francophone local — J'organise toutes les activités à Zanzibar et en Tanzanie. Excursions, safaris, transferts.",
+    "services": "Services",
+    "important": "Liens Utiles",
+    "getInTouch": "Contact",
+    "rights": "Tous droits réservés.",
+    "about": "À Propos"
+  }
+}

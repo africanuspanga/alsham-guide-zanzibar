@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Home",
+    "carRental": "Car Rental",
+    "taxiTransfer": "Taxi Transfer",
+    "safari": "Safari",
+    "excursion": "Excursion",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle1": "Your French-Speaking",
+    "heroTitle2": "Guide",
+    "heroTitle3": "in Zanzibar",
+    "heroSubtitle": "Local French-speaking guide — I organise all activities in Zanzibar and Tanzania. Excursions, safaris, transfers and more.",
+    "heroCta": "Explore our excursions",
+    "why1Title": "Authenticity",
+    "why1Desc": "Experience Zanzibar like a local with culture-rich adventures, far from standard tourist circuits.",
+    "why2Title": "Expertise",
+    "why2Desc": "Experienced French-speaking guide who knows every hidden gem of the island and Tanzania.",
+    "why3Title": "Flexibility",
+    "why3Desc": "Custom excursions tailored to your desires, pace and budget.",
+    "whyTitle": "Why Choose AlSham Guide?",
+    "whySubtitle": "The Zanzibar experience by a local French-speaking expert",
+    "toursTitle": "Our Featured Excursions",
+    "toursSubtitle": "The best activities in Zanzibar",
+    "toursCta": "See all excursions",
+    "safariTitle": "Our Tanzania Safaris",
+    "safariSubtitle": "Leave the beach and step into the savanna",
+    "safariCta": "See all safaris",
+    "contactTitle": "Ready to Go?",
+    "contactSubtitle": "Contact me directly to organise your adventure",
+    "contactWhatsapp": "WhatsApp",
+    "contactCall": "Call"
+  },
+  "excursion": {
+    "pageTitle": "Zanzibar Excursions",
+    "pageSubtitle": "Discover the most beautiful activities on the island",
+    "viewDetails": "View Details",
+    "bookNow": "Book Now",
+    "pricePerPerson": "/ person",
+    "duration": "Duration",
+    "gallery": "Photo Gallery",
+    "included": "Included",
+    "relatedTitle": "Other Excursions",
+    "backToList": "← Back to excursions"
+  },
+  "safari": {
+    "pageTitle": "Safaris from Zanzibar",
+    "pageSubtitle": "Leave the beach and enter the African savanna",
+    "day": "Day",
+    "nights": "Nights",
+    "days": "Days",
+    "bookSafari": "Book this Safari",
+    "included": "What's Included",
+    "itinerary": "Itinerary"
+  },
+  "carRental": {
+    "pageTitle": "Car Rental",
+    "pageSubtitle": "Explore Zanzibar at your own pace",
+    "perDay": "/ day",
+    "withDriver": "With Driver",
+    "withoutDriver": "Without Driver",
+    "bookVehicle": "Book this Vehicle"
+  },
+  "taxiTransfer": {
+    "pageTitle": "Taxi Transfer",
+    "pageSubtitle": "Reliable and comfortable transfers in Zanzibar",
+    "bookTransfer": "Book a Transfer"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "I'm available to organise your Zanzibar adventure",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "whatsapp": "WhatsApp",
+    "sendMessage": "Send a Message",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "submitBtn": "Send"
+  },
+  "booking": {
+    "title": "Book this Tour",
+    "subtitle": "Fill in the form and I will contact you quickly",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Your full name",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+1 (555) 123-4567",
+    "people": "Number of People",
+    "date": "Preferred Date",
+    "country": "Country",
+    "countryPlaceholder": "Your country of residence",
+    "specialRequests": "Special Requests or Questions",
+    "specialRequestsPlaceholder": "Dietary restrictions, accessibility needs, or special requests...",
+    "submitWhatsapp": "Send via WhatsApp",
+    "submitEmail": "Send by Email",
+    "required": "Required field",
+    "close": "Close"
+  },
+  "footer": {
+    "description": "Local French-speaking guide — I organise all activities in Zanzibar and Tanzania. Excursions, safaris, transfers.",
+    "services": "Services",
+    "important": "Quick Links",
+    "getInTouch": "Get in Touch",
+    "rights": "All rights reserved.",
+    "about": "About"
+  }
+}

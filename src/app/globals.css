@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1a1a1a;
 }
 
 @theme inline {
@@ -10,17 +10,23 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* AlSham Brand Colors */
+  --color-brand-blue:       #2C87B8;
+  --color-brand-blue-dark:  #1F5F86;
+  --color-brand-gold:       #F39C34;
+  --color-brand-gold-light: #F7C948;
+  --color-brand-gray:       #8A8A8A;
+  --color-brand-sky:        #9EC3DA;
+  --color-navy:             #0f2744;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
