@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import OceanDivider from "@/components/ui/OceanDivider";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -8,12 +9,7 @@ export default function Footer() {
 
   return (
     <footer>
-      {/* Wave divider */}
-      <div className="bg-white">
-        <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="block w-full h-16 md:h-20">
-          <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#0f2744" />
-        </svg>
-      </div>
+      <OceanDivider />
 
       <div className="bg-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
