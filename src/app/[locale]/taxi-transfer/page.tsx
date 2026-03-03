@@ -6,12 +6,11 @@ import { useTranslations, useLocale } from "next-intl";
 import BookingModal from "@/components/ui/BookingModal";
 
 const galleryImages = [
-  "/images/taxi-transfer-1.jpeg",
-  "/images/taxi-transfer-2.jpeg",
-  "/images/taxi-transfer-3.jpeg",
-  "/images/taxi-transfer-4.jpeg",
-  "/images/taxi-transfer-5.jpeg",
-  "/images/taxi-transfer-6.jpeg",
+  "/images/taxi-new-1.jpeg",
+  "/images/taxi-new-2.jpeg",
+  "/images/taxi-new-3.jpeg",
+  "/images/taxi-new-4.jpeg",
+  "/images/taxi-new-5.jpeg",
 ];
 
 const pricingFr = [
@@ -48,7 +47,7 @@ export default function TaxiTransferPage() {
       <section className="relative min-h-[65vh] flex items-center overflow-hidden bg-brand-blue-dark">
         <div className="absolute inset-0">
           <Image
-            src="/images/taxi-transfer-3.jpeg"
+            src="/images/taxi-new-1.jpeg"
             alt="Taxi Transfer Zanzibar"
             fill
             className="object-cover"

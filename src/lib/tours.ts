@@ -62,6 +62,8 @@ export const tours: Tour[] = [
       "/images/mnemba-island-4.jpeg",
       "/images/mnemba-island-5.jpeg",
       "/images/mnemba-island-8.jpeg",
+      "/images/mnemba-island-11.jpeg",
+      "/images/mnemba-island-12.jpeg",
     ],
     badge: "Populaire",
     includedFr: ["Bateau privé", "Guide francophone", "Matériel de snorkeling", "Plateau de fruits frais", "Frais d'entrée"],
