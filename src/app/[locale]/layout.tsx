@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import QuickBookingBar from "@/components/ui/QuickBookingBar";
 import "../globals.css";
 
 const geist = Geist({
@@ -128,7 +127,6 @@ export default async function LocaleLayout({
       <body className={`${geist.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <QuickBookingBar />
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>

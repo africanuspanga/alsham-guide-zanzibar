@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import WaveDivider from "@/components/ui/WaveDivider";
 import BookingTrigger from "@/components/ui/BookingTrigger";
+import QuickBookingBar from "@/components/ui/QuickBookingBar";
 import { tours } from "@/lib/tours";
 import { safariPackages } from "@/lib/safaris";
 
@@ -211,6 +212,9 @@ export default async function HomePage({
       </section>
 
       <WaveDivider topColor="#2C87B8" bottomColor="#ffffff" />
+
+      {/* ─── QUICK BOOKING BAR ─── */}
+      <QuickBookingBar />
 
       {/* ─── VALUE PROPS ─── */}
       <section className="bg-white py-20">

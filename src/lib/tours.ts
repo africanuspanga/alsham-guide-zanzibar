@@ -115,6 +115,61 @@ export const tours: Tour[] = [
     includedEn: ["Return boat", "Local guide", "Snorkeling"],
   },
   {
+    slug: "nakupenda-bis",
+    titleFr: "Nakupenda Bis — Banc de Sable Privé",
+    titleEn: "Nakupenda Bis — Private Sandbank",
+    descriptionFr: "L'extension exclusive de Nakupenda — un banc de sable privé loin de la foule.",
+    descriptionEn: "The exclusive extension of Nakupenda — a private sandbank away from the crowds.",
+    longDescriptionFr: `Nakupenda Bis (un banc de sable privé) — Nakupenda c'est un mot romantique ça veut dire "Je t'aime" en swahili.
+
+C'est une extension plus récente et plus tranquille du célèbre banc de sable de Nakupenda, située au large de Zanzibar, loin de Stone Town il y a presque une heure en bateau c'est pour cela qu'il y a moins de monde là-bas.
+
+🌊 Un coin encore plus exclusif
+Moins fréquenté que le banc principal, Nakupenda Bis offre une atmosphère plus intime et préservée il apparaît et disparaît au rythme des marées. Le sable y est tout aussi blanc et fin entouré d'eaux turquoise limpides, mais l'ambiance y est souvent plus calme, idéale pour ceux qui recherchent la tranquillité.
+
+🐠 Expérience sur place
+Les excursions vers Nakupenda Bis incluent généralement :
+• Traversée en bateau traditionnel depuis Stone Town
+• Baignade dans une belle magnifique plage
+• Snorkeling autour de l'île de bawe c'est incroyable là-bas
+• Déjeuner de fruits de mer ou pique-nique sur le sable (Barbecue) et des fruits exotiques. L'île mangue, passion, avocat, ananas 🍌🥑🥭🍉
+
+🌅 Atmosphère
+Le paysage reste spectaculaire : une étendue de sable blanc isolée au milieu de l'océan Indien, avec une vue panoramique à 360° sur l'eau. L'absence d'infrastructures permanentes renforce l'impression d'être sur une île éphémère et privée.
+
+Nakupenda Bis est donc une alternative plus paisible au banc principal, parfaite pour les visiteurs souhaitant profiter tranquillement pour passer un bon moment inoubliable. Aussi c'est l'endroit le plus beau pour faire des belles photos avec un drone ou le téléphone qui te laisse pleins de souvenirs incroyables ! Vous serez émerveillé par cette expérience incroyable.`,
+    longDescriptionEn: `Nakupenda Bis (a private sandbank) — Nakupenda is a romantic word that means "I love you" in Swahili.
+
+This is a newer and quieter extension of the famous Nakupenda sandbank, located off the coast of Zanzibar, far from Stone Town — almost an hour by boat, which is why there are fewer people there.
+
+🌊 An even more exclusive spot
+Less crowded than the main sandbank, Nakupenda Bis offers a more intimate and preserved atmosphere. It appears and disappears with the tides. The sand is just as white and fine, surrounded by crystal-clear turquoise waters, but the atmosphere is often calmer — ideal for those seeking tranquility.
+
+🐠 On-site experience
+Excursions to Nakupenda Bis generally include:
+• Traditional boat crossing from Stone Town
+• Swimming at a beautiful beach
+• Snorkeling around Bawe Island — it's incredible there
+• Seafood lunch or picnic on the sand (BBQ) with exotic fruits: mango, passion fruit, avocado, pineapple 🍌🥑🥭🍉
+
+🌅 Atmosphere
+The landscape remains spectacular: an isolated stretch of white sand in the middle of the Indian Ocean, with a 360° panoramic view of the water. The absence of permanent infrastructure reinforces the feeling of being on an ephemeral and private island.
+
+Nakupenda Bis is therefore a more peaceful alternative to the main sandbank, perfect for visitors wanting to enjoy a tranquil and unforgettable moment. It's also the most beautiful place to take stunning photos with a drone or phone that will leave you with incredible memories! You will be amazed by this incredible experience.`,
+    price: 60,
+    duration: "Journée complète",
+    durationEn: "Full Day",
+    coverImage: "/images/nakupenda-beach-3.jpeg",
+    images: [
+      "/images/nakupenda-beach-3.jpeg",
+      "/images/nakupenda-beach-4.jpeg",
+      "/images/mnemba-island-8.jpeg",
+    ],
+    badge: "Exclusif",
+    includedFr: ["Bateau traditionnel", "Guide local", "Snorkeling", "Déjeuner barbecue fruits de mer", "Fruits exotiques"],
+    includedEn: ["Traditional boat", "Local guide", "Snorkeling", "Seafood BBQ lunch", "Exotic fruits"],
+  },
+  {
     slug: "forodhani-gardens",
     titleFr: "Jardins Forodhani",
     titleEn: "Forodhani Gardens",
