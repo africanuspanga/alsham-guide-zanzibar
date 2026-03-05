@@ -12,7 +12,7 @@ const vehicles = [
     categoryFr: "Économique",
     categoryEn: "Economy",
     capacity: "1–2",
-    image: "/images/taxi 1.jpeg",
+    image: "/images/taxi-transfer-2.jpeg",
     priceFr: "25$",
     priceEn: "$25",
     periodFr: "/ jour",
@@ -38,7 +38,7 @@ const vehicles = [
     categoryFr: "Confort",
     categoryEn: "Comfort",
     capacity: "1–2",
-    image: "/images/taxi 2.jpeg",
+    image: "/images/taxi-transfer-4.jpeg",
     priceFr: "25$",
     priceEn: "$25",
     periodFr: "/ jour",
@@ -166,7 +166,7 @@ export default function CarRentalPage() {
       <section className="relative min-h-[60vh] flex items-center overflow-hidden bg-brand-blue-dark">
         <div className="absolute inset-0">
           <Image
-            src="/images/taxi 1.jpeg"
+            src="/images/taxi-transfer-1.jpeg"
             alt="Car Rental Zanzibar"
             fill
             className="object-cover"
