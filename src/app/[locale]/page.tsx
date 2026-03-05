@@ -194,8 +194,8 @@ export default async function HomePage({
             {/* Stats row */}
             <div className="flex flex-wrap gap-8 mt-16 pt-8 border-t border-white/20">
               {[
-                { stat: "13+", labelFr: "Excursions", labelEn: "Excursions" },
-                { stat: "2", labelFr: "Safaris", labelEn: "Safaris" },
+                { stat: "14+", labelFr: "Excursions", labelEn: "Excursions" },
+                { stat: "4", labelFr: "Safaris", labelEn: "Safaris" },
                 { stat: "5★", labelFr: "Service", labelEn: "Service" },
                 { stat: "24/7", labelFr: "Disponible", labelEn: "Available" },
               ].map((item) => (
@@ -520,6 +520,28 @@ export default async function HomePage({
                   {locale === "fr" ? "Plages Paradisiaques" : "Paradise Beaches"}
                 </h3>
               </div>
+            </div>
+          </div>
+
+          {/* Prices */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+            <div className="bg-brand-blue-dark rounded-2xl p-6 text-center">
+              <div className="text-brand-gold text-4xl font-black mb-2">100$</div>
+              <p className="text-white font-bold mb-1">
+                {locale === "fr" ? "Car Jet" : "Car Jet"}
+              </p>
+              <p className="text-brand-sky text-sm">
+                {locale === "fr" ? "20 minutes" : "20 minutes"}
+              </p>
+            </div>
+            <div className="bg-brand-blue-dark rounded-2xl p-6 text-center">
+              <div className="text-brand-gold text-4xl font-black mb-2">50$</div>
+              <p className="text-white font-bold mb-1">
+                {locale === "fr" ? "Jet Ski" : "Jet Ski"}
+              </p>
+              <p className="text-brand-sky text-sm">
+                {locale === "fr" ? "30 minutes" : "30 minutes"}
+              </p>
             </div>
           </div>
 

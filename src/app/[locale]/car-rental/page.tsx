@@ -7,83 +7,101 @@ import BookingModal from "@/components/ui/BookingModal";
 
 const vehicles = [
   {
-    nameFr: "Berline",
+    nameFr: "Sedan",
     nameEn: "Sedan",
     categoryFr: "Économique",
     categoryEn: "Economy",
-    capacity: "1–4",
-    image: "/images/taxi-transfer-2.jpeg",
-    priceFr: "30$",
-    priceEn: "$30",
+    capacity: "1–2",
+    image: "/images/taxi 1.jpeg",
+    priceFr: "25$",
+    priceEn: "$25",
     periodFr: "/ jour",
     periodEn: "/ day",
     featuresFr: [
       "Climatisation",
-      "Jusqu'à 4 passagers",
-      "Idéal pour couples & petits groupes",
-      "Chauffeur disponible",
-      "Transfert aéroport inclus possible",
+      "Jusqu'à 2 passagers",
+      "Idéal pour couples",
+      "Permis de conduire valide requis",
+      "Passeport requis",
     ],
     featuresEn: [
       "Air conditioning",
-      "Up to 4 passengers",
-      "Ideal for couples & small groups",
-      "Driver available",
-      "Airport transfer option",
+      "Up to 2 passengers",
+      "Ideal for couples",
+      "Valid driver's license required",
+      "Passport required",
     ],
   },
   {
-    nameFr: "4x4 / SUV",
-    nameEn: "4x4 / SUV",
+    nameFr: "Comfort 4x4 SUV",
+    nameEn: "Comfort 4x4 SUV",
     categoryFr: "Confort",
     categoryEn: "Comfort",
+    capacity: "1–2",
+    image: "/images/taxi 2.jpeg",
+    priceFr: "25$",
+    priceEn: "$25",
+    periodFr: "/ jour",
+    periodEn: "/ day",
+    featuresFr: [
+      "Climatisation",
+      "Jusqu'à 2 passagers",
+      "Idéal pour toute l'île & pistes",
+      "Permis de conduire valide requis",
+      "Passeport requis",
+    ],
+    featuresEn: [
+      "Air conditioning",
+      "Up to 2 passengers",
+      "Ideal for the whole island & dirt roads",
+      "Valid driver's license required",
+      "Passport required",
+    ],
+  },
+  {
+    nameFr: "Mini Bus",
+    nameEn: "Mini Bus",
+    categoryFr: "Groupe",
+    categoryEn: "Group",
     capacity: "1–6",
-    image: "/images/taxi-transfer-4.jpeg",
-    priceFr: "50$",
-    priceEn: "$50",
+    image: "/images/taxi-transfer-6.jpeg",
+    priceFr: "40$",
+    priceEn: "$40",
     periodFr: "/ jour",
     periodEn: "/ day",
     featuresFr: [
       "Climatisation",
       "Jusqu'à 6 passagers",
-      "Idéal pour toute l'île & pistes",
-      "Chauffeur disponible",
-      "Parfait pour les excursions",
+      "Idéal pour groupes & familles",
+      "Permis de conduire valide requis",
+      "Passeport requis",
     ],
     featuresEn: [
       "Air conditioning",
       "Up to 6 passengers",
-      "Ideal for the whole island & dirt roads",
-      "Driver available",
-      "Perfect for excursions",
-    ],
-  },
-  {
-    nameFr: "Minibus",
-    nameEn: "Minibus",
-    categoryFr: "Groupe",
-    categoryEn: "Group",
-    capacity: "7–14",
-    image: "/images/taxi-transfer-6.jpeg",
-    priceFr: "80$",
-    priceEn: "$80",
-    periodFr: "/ jour",
-    periodEn: "/ day",
-    featuresFr: [
-      "Climatisation",
-      "Jusqu'à 14 passagers",
-      "Idéal pour groupes & familles",
-      "Chauffeur expérimenté inclus",
-      "Bagages volumineux acceptés",
-    ],
-    featuresEn: [
-      "Air conditioning",
-      "Up to 14 passengers",
       "Ideal for groups & families",
-      "Experienced driver included",
-      "Large luggage accepted",
+      "Valid driver's license required",
+      "Passport required",
     ],
   },
+];
+
+const requirementsFr = [
+  "Un permis de conduire valide",
+  "Une pièce d'identité",
+  "Un passeport",
+  "Vérifier la voiture avant de partir (vous pouvez filmer)",
+  "Signer un contrat avant de partir",
+  "Avoir l'autorisation de conduire d'ici (Permis local) — 10€",
+];
+
+const requirementsEn = [
+  "A valid driver's license",
+  "An ID document",
+  "A passport",
+  "Check the vehicle before leaving (you can film)",
+  "Sign a contract before leaving",
+  "Have a local driving permit — 10€",
 ];
 
 const perks = [
@@ -122,10 +140,10 @@ const perks = [
       "M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z",
     statFr: "👨‍✈️",
     statEn: "👨‍✈️",
-    titleFr: "Avec Chauffeur",
-    titleEn: "With Driver",
-    descFr: "Local & expérimenté",
-    descEn: "Local & experienced",
+    titleFr: "Toyota & Nissan",
+    titleEn: "Toyota & Nissan",
+    descFr: "Rav4, Alphard, Juke...",
+    descEn: "Rav4, Alphard, Juke...",
   },
 ];
 
@@ -140,13 +158,15 @@ export default function CarRentalPage() {
     setModalOpen(true);
   }
 
+  const requirements = locale === "fr" ? requirementsFr : requirementsEn;
+
   return (
     <>
       {/* HERO */}
       <section className="relative min-h-[60vh] flex items-center overflow-hidden bg-brand-blue-dark">
         <div className="absolute inset-0">
           <Image
-            src="/images/taxi-transfer-1.jpeg"
+            src="/images/taxi 1.jpeg"
             alt="Car Rental Zanzibar"
             fill
             className="object-cover"
@@ -175,8 +195,8 @@ export default function CarRentalPage() {
             </h1>
             <p className="text-brand-sky text-xl leading-relaxed mb-10">
               {locale === "fr"
-                ? "Berlines, SUV et minibus — avec ou sans chauffeur — disponibles 24h/24 sur toute l'île."
-                : "Sedans, SUVs and minibuses — with or without driver — available 24/7 across the island."}
+                ? "On vous propose un service spécialisé qui permet à un client d'utiliser un véhicule Toyota (Rav4, Alphard, Nissan Juke, etc.) pour une période courte ou longue."
+                : "We offer a specialized service that allows you to rent a Toyota vehicle (Rav4, Alphard, Nissan Juke, etc.) for short or long periods."}
             </p>
             <button
               onClick={() => openModal(t("pageTitle"))}
@@ -206,6 +226,25 @@ export default function CarRentalPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* DESCRIPTION */}
+      <section className="bg-white py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-brand-blue-dark mb-6">
+            {locale === "fr" ? "Comment fonctionne la location ?" : "How does car rental work?"}
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-8">
+            {locale === "fr"
+              ? "Le client choisit le modèle selon ses besoins, signe un contrat et paie un tarif journalier. Le prix dépend généralement du type de véhicule, de la durée de location, et des options supplémentaires (GPS, siège bébé, conducteur additionnel)."
+              : "You choose the model according to your needs, sign a contract and pay a daily rate. The price generally depends on the type of vehicle, the rental period, and additional options (GPS, baby seat, additional driver)."}
+          </p>
+          <p className="text-gray-600 leading-relaxed">
+            {locale === "fr"
+              ? "Pour la location de voiture, vous pouvez pratiquer pour les voyages, les déplacements professionnels, les vacances."
+              : "Car rental is perfect for travel, business trips, and vacations."}
+          </p>
         </div>
       </section>
 
@@ -296,9 +335,39 @@ export default function CarRentalPage() {
 
           <p className="text-center text-gray-400 text-sm mt-8">
             {locale === "fr"
-              ? "* Tarifs indicatifs · Chauffeur disponible sur demande · Contactez-nous pour un devis personnalisé"
-              : "* Indicative prices · Driver available on request · Contact us for a custom quote"}
+              ? "* Tarifs indicatifs · Contactez-nous pour un devis personnalisé"
+              : "* Indicative prices · Contact us for a custom quote"}
           </p>
+        </div>
+      </section>
+
+      {/* REQUIREMENTS */}
+      <section className="bg-white py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <h2 className="text-4xl font-black text-brand-blue-dark mb-3">
+              {locale === "fr" ? "Conditions de Location" : "Rental Requirements"}
+            </h2>
+            <p className="text-gray-500">
+              {locale === "fr"
+                ? "Ce dont vous avez besoin pour louer un véhicule"
+                : "What you need to rent a vehicle"}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {requirements.map((req, index) => (
+              <div
+                key={index}
+                className="flex items-start gap-4 bg-gray-50 rounded-2xl p-5"
+              >
+                <div className="w-10 h-10 bg-brand-gold/20 rounded-xl flex items-center justify-center shrink-0">
+                  <span className="text-brand-gold font-black">{index + 1}</span>
+                </div>
+                <p className="text-gray-700 leading-relaxed">{req}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -366,31 +435,35 @@ export default function CarRentalPage() {
 
       {/* CTA SECTION */}
       <section className="bg-brand-blue-dark py-20 relative overflow-hidden">
-        {/* Background decorative circles */}
+        {/* Background decorative elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-brand-gold/10 rounded-full -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-blue/30 rounded-full translate-y-1/2 -translate-x-1/2" />
 
-        <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-black text-white mb-4 leading-tight">
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center gap-2 bg-brand-gold/20 backdrop-blur-sm border border-brand-gold/30 text-brand-gold text-sm font-bold px-5 py-2.5 rounded-full mb-8">
+            <span className="w-2 h-2 bg-brand-gold rounded-full animate-pulse" />
+            {locale === "fr" ? "Besoin d'une voiture ?" : "Need a car?"}
+          </div>
+          <h2 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
             {locale === "fr" ? (
               <>
-                Prêt à explorer <span className="text-brand-gold">Zanzibar ?</span>
+                Louez votre <span className="text-brand-gold">véhicule</span> maintenant
               </>
             ) : (
               <>
-                Ready to explore <span className="text-brand-gold">Zanzibar?</span>
+                Rent your <span className="text-brand-gold">vehicle</span> now
               </>
             )}
           </h2>
-          <p className="text-brand-sky text-xl mb-10">
+          <p className="text-brand-sky text-xl mb-10 max-w-2xl mx-auto">
             {locale === "fr"
-              ? "Disponible 24h/24 — réponse rapide via WhatsApp"
-              : "Available 24/7 — quick response via WhatsApp"}
+              ? "Contactez-nous dès maintenant pour réserver votre véhicule et explorer Zanzibar à votre rythme."
+              : "Contact us now to book your vehicle and explore Zanzibar at your own pace."}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => openModal(t("pageTitle"))}
-              className="inline-block bg-brand-gold hover:bg-brand-gold-light text-white font-black px-10 py-5 rounded-full text-lg transition-all hover:scale-105 shadow-2xl shadow-brand-gold/30"
+              className="inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-brand-gold-light text-white font-black px-10 py-5 rounded-full text-lg transition-all hover:scale-105 shadow-2xl shadow-brand-gold/30"
             >
               {t("bookVehicle")} →
             </button>
