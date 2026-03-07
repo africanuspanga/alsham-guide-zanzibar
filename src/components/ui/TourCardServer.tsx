@@ -36,7 +36,7 @@ export default async function TourCardServer({ tour, locale }: TourCardServerPro
 
       {/* Info bar */}
       <div className="bg-brand-blue-dark text-white px-4 py-2 flex items-center justify-between text-sm">
-        <span className="font-semibold">${tour.price}{t("pricePerPerson")}</span>
+        <span className="font-semibold">€{tour.price}{t("pricePerPerson")}</span>
         {duration && (
           <span className="flex items-center gap-1 text-brand-sky">
             <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current" aria-hidden="true">

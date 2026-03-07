@@ -41,7 +41,7 @@ export const tours: TourWithPricing[] = [
     descriptionEn: "A sacred natural pool hidden inside a limestone cave in Jambiani.",
     longDescriptionFr: `À quelques minutes de Paje, à Jambiani, se cache Maalum Cave — une grotte de calcaire abritant une piscine naturelle d'une clarté absolue. Le nom "Maalum" signifie "Spécial" en Swahili.\n\nL'eau douce, filtrée par les roches, est fraîche et cristalline : le lieu parfait pour une baignade régénératrice. Maalum limite le nombre de visiteurs par créneau, garantissant une expérience intime. Sur place, vous pouvez également réserver un massage, déjeuner au restaurant, et vous détendre dans le jardin magnifique entourant la grotte.`,
     longDescriptionEn: `Just a few minutes from Paje, in Jambiani, lies Maalum Cave — a limestone cave sheltering a natural pool of absolute clarity. "Maalum" means "Special" in Swahili.\n\nThe fresh water, filtered through the rocks, is cool and crystal-clear — the perfect spot for a refreshing swim. Maalum limits visitor numbers per time slot, ensuring an intimate experience. On site you can also book a massage, have lunch at the restaurant, and relax in the beautiful garden surrounding the cave.`,
-    price: 50,
+    price: 28,
     duration: "Demi-journée",
     durationEn: "Half Day",
     coverImage: "/images/maalum-cave-1.jpeg",
@@ -279,7 +279,7 @@ Nakupenda Bis is therefore a more peaceful alternative to the main sandbank, per
     descriptionEn: "Full day at sea in Menai Bay — snorkeling, traditional sailing, seafood barbecue.",
     longDescriptionFr: `Safari Blue est une excursion en mer d'une journée complète autour de la Menai Bay Conservation Area, zone marine protégée au large de la côte sud-ouest de Zanzibar.\n\nDépart du village de pêcheurs de Fumba à bord d'un bateau traditionnel en bois. Circuit avec arrêts snorkeling dans les récifs coralliens, visite d'un banc de sable isolé, et moment fort : le déjeuner barbecue swahili avec poissons grillés, langoustes, calamars et fruits tropicaux sur une petite île.\n\nAprès-midi : exploration d'un baobab géant, lagune de mangrove cachée, puis retour à Fumba.`,
     longDescriptionEn: `Safari Blue is a full-day boat excursion around the Menai Bay Conservation Area, a protected marine zone off Zanzibar's south-west coast.\n\nDepart from the fishing village of Fumba aboard a traditional wooden boat. The circuit includes snorkelling stops at colourful coral reefs, a visit to an isolated sandbank, and the highlight: a Swahili barbecue lunch with grilled fish, lobster, squid and tropical fruits on a small island.\n\nAfternoon: exploration of a giant baobab, hidden mangrove lagoon, then return to Fumba.`,
-    price: 75,
+    price: 60,
     duration: "Journée complète",
     durationEn: "Full Day (~8-9h)",
     coverImage: "/images/safari-blue-1.jpeg",
@@ -297,9 +297,9 @@ Nakupenda Bis is therefore a more peaceful alternative to the main sandbank, per
     includedFr: ["Frais d'entrée", "Bateau privé", "Déjeuner", "Guide"],
     includedEn: ["Entry fee", "Private boat", "Lunch", "Guide"],
     pricingTiers: [
-      { people: "1-2", price: "75€" },
-      { people: "3-4", price: "70€" },
-      { people: "5-10", price: "65€" },
+      { people: "1-2", price: "60€" },
+      { people: "3-5", price: "55€" },
+      { people: "6-10", price: "50€" },
     ],
     minimumPeople: "2",
   },
@@ -404,6 +404,7 @@ Nakupenda Bis is therefore a more peaceful alternative to the main sandbank, per
   },
   {
     slug: "salaam-cave",
+    price: 25,
     titleFr: "Salaam Cave",
     titleEn: "Salaam Cave",
     descriptionFr: "Grotte naturelle en corail avec piscine d'eau claire aux reflets bleus — nagez avec les tortues dans ce sanctuaire préservé.",
@@ -428,7 +429,7 @@ The site is known as a sea turtle conservation sanctuary:
 • You can swim with the turtles that live there, observe them in the water and sometimes feed them algae, under the supervision of guides.
 • It's a unique experience that allows you to get close to these animals while learning about conservation efforts.
 • The cave is clean and has beautiful scenery for taking photos.`,
-    price: 50,
+    price: 25,
     duration: "Demi-journée",
     durationEn: "Half Day",
     coverImage: "/images/Salaam Cave 1.jpeg",

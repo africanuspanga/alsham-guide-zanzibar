@@ -13,8 +13,8 @@ const vehicles = [
     categoryEn: "Economy",
     capacity: "1–2",
     image: "/images/taxi-transfer-2.jpeg",
-    priceFr: "25$",
-    priceEn: "$25",
+    priceFr: "30€",
+    priceEn: "30€",
     periodFr: "/ jour",
     periodEn: "/ day",
     featuresFr: [
@@ -39,8 +39,8 @@ const vehicles = [
     categoryEn: "Comfort",
     capacity: "1–2",
     image: "/images/taxi-transfer-4.jpeg",
-    priceFr: "25$",
-    priceEn: "$25",
+    priceFr: "27€",
+    priceEn: "27€",
     periodFr: "/ jour",
     periodEn: "/ day",
     featuresFr: [
@@ -65,8 +65,8 @@ const vehicles = [
     categoryEn: "Group",
     capacity: "1–6",
     image: "/images/taxi-transfer-6.jpeg",
-    priceFr: "40$",
-    priceEn: "$40",
+    priceFr: "40€",
+    priceEn: "40€",
     periodFr: "/ jour",
     periodEn: "/ day",
     featuresFr: [

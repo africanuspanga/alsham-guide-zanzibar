@@ -14,33 +14,33 @@ const galleryImages = [
 ];
 
 const pricingFr = [
-  { route: "Aéroport → Stone Town", price: "15$", popular: true },
-  { route: "Aéroport → Nungwi", price: "35$", popular: false },
-  { route: "Aéroport → Kendwa", price: "35$", popular: false },
-  { route: "Aéroport → Paje", price: "35$", popular: false },
-  { route: "Aéroport → Jambiani", price: "35$", popular: false },
-  { route: "Stone Town → Nungwi", price: "35$", popular: false },
-  { route: "Stone Town → Paje", price: "35$", popular: false },
-  { route: "Stone Town → Kiwengwa", price: "35$", popular: false },
-  { route: "Nungwi → Paje / Jambiani", price: "45$", popular: false },
-  { route: "Nungwi → Kizimkazi", price: "50$", popular: false },
-  { route: "Nungwi → Michamvi", price: "50$", popular: false },
-  { route: "Nungwi → Makunduchi", price: "50$", popular: false },
+  { route: "Aéroport → Stone Town", price: "15€", popular: true },
+  { route: "Aéroport → Nungwi", price: "35€", popular: false },
+  { route: "Aéroport → Kendwa", price: "35€", popular: false },
+  { route: "Aéroport → Paje", price: "35€", popular: false },
+  { route: "Aéroport → Jambiani", price: "35€", popular: false },
+  { route: "Stone Town → Nungwi", price: "35€", popular: false },
+  { route: "Stone Town → Paje", price: "35€", popular: false },
+  { route: "Stone Town → Kiwengwa", price: "35€", popular: false },
+  { route: "Nungwi → Paje / Jambiani", price: "45€", popular: false },
+  { route: "Nungwi → Kizimkazi", price: "50€", popular: false },
+  { route: "Nungwi → Michamvi", price: "50€", popular: false },
+  { route: "Nungwi → Makunduchi", price: "50€", popular: false },
 ];
 
 const pricingEn = [
-  { route: "Airport → Stone Town", price: "$15", popular: true },
-  { route: "Airport → Nungwi", price: "$35", popular: false },
-  { route: "Airport → Kendwa", price: "$35", popular: false },
-  { route: "Airport → Paje", price: "$35", popular: false },
-  { route: "Airport → Jambiani", price: "$35", popular: false },
-  { route: "Stone Town → Nungwi", price: "$35", popular: false },
-  { route: "Stone Town → Paje", price: "$35", popular: false },
-  { route: "Stone Town → Kiwengwa", price: "$35", popular: false },
-  { route: "Nungwi → Paje / Jambiani", price: "$45", popular: false },
-  { route: "Nungwi → Kizimkazi", price: "$50", popular: false },
-  { route: "Nungwi → Michamvi", price: "$50", popular: false },
-  { route: "Nungwi → Makunduchi", price: "$50", popular: false },
+  { route: "Airport → Stone Town", price: "15€", popular: true },
+  { route: "Airport → Nungwi", price: "35€", popular: false },
+  { route: "Airport → Kendwa", price: "35€", popular: false },
+  { route: "Airport → Paje", price: "35€", popular: false },
+  { route: "Airport → Jambiani", price: "35€", popular: false },
+  { route: "Stone Town → Nungwi", price: "35€", popular: false },
+  { route: "Stone Town → Paje", price: "35€", popular: false },
+  { route: "Stone Town → Kiwengwa", price: "35€", popular: false },
+  { route: "Nungwi → Paje / Jambiani", price: "45€", popular: false },
+  { route: "Nungwi → Kizimkazi", price: "50€", popular: false },
+  { route: "Nungwi → Michamvi", price: "50€", popular: false },
+  { route: "Nungwi → Makunduchi", price: "50€", popular: false },
 ];
 
 export default function TaxiTransferPage() {
@@ -120,7 +120,7 @@ export default function TaxiTransferPage() {
               { stat: "24/7", labelFr: "Disponibilité", labelEn: "Availability" },
               { stat: "200+", labelFr: "Transferts", labelEn: "Transfers" },
               { stat: "5★", labelFr: "Service", labelEn: "Service" },
-              { stat: "15$", labelFr: "Depuis l'aéroport", labelEn: "From airport" },
+              { stat: "15€", labelFr: "Depuis l'aéroport", labelEn: "From airport" },
             ].map((item) => (
               <div key={item.stat}>
                 <div className="text-3xl md:text-4xl font-black text-white">{item.stat}</div>
@@ -182,8 +182,8 @@ export default function TaxiTransferPage() {
                 titleEn: "Airport Transfer",
                 descFr: "Arrivée ou départ — prise en charge à l'aéroport Abeid Amani Karume avec panneau nominatif. Ponctualité garantie.",
                 descEn: "Arrival or departure — pickup at Abeid Amani Karume Airport with name sign. Punctuality guaranteed.",
-                detailFr: "À partir de 15$ / trajet",
-                detailEn: "From $15 / trip",
+                detailFr: "À partir de 15€ / trajet",
+                detailEn: "From 15€ / trip",
               },
               {
                 gradient: "from-brand-gold to-[#e67e22]",

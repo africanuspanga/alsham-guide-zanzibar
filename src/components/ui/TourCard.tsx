@@ -51,7 +51,7 @@ export default function TourCard({
       {/* Info bar */}
       <div className="bg-brand-blue-dark text-white px-4 py-2 flex items-center justify-between text-sm">
         <span className="font-semibold">
-          ${price}{t("pricePerPerson")}
+          €{price}{t("pricePerPerson")}
         </span>
         {duration && (
           <span className="flex items-center gap-1 text-brand-sky">
