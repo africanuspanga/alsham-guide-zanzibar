@@ -404,7 +404,6 @@ Nakupenda Bis is therefore a more peaceful alternative to the main sandbank, per
   },
   {
     slug: "salaam-cave",
-    price: 25,
     titleFr: "Salaam Cave",
     titleEn: "Salaam Cave",
     descriptionFr: "Grotte naturelle en corail avec piscine d'eau claire aux reflets bleus — nagez avec les tortues dans ce sanctuaire préservé.",
