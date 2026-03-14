@@ -81,6 +81,14 @@ export default function Footer() {
                   <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current shrink-0">
                     <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
                   </svg>
+                  <a href="mailto:info@alshamzanzibar.com" className="hover:text-brand-gold transition-colors break-all">
+                    info@alshamzanzibar.com
+                  </a>
+                </li>
+                <li className="flex items-center gap-2 text-brand-sky">
+                  <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current shrink-0">
+                    <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                  </svg>
                   <a href="mailto:Aliyshaib2017@gmail.com" className="hover:text-brand-gold transition-colors break-all">
                     Aliyshaib2017@gmail.com
                   </a>
@@ -99,7 +107,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-2 text-brand-sky text-xs">
-            <p>© {new Date().getFullYear()} AlSham Guide Zanzibar. {t("rights")}</p>
+            <p>© {new Date().getFullYear()} AlSham Guide Zanzibar. <a href="https://www.driftmark.co.tz/" target="_blank" rel="noopener noreferrer" className="text-brand-sky hover:text-brand-gold transition-colors">{t("rights")}</a></p>
             <p className="text-brand-sky/60">Guide Francophone · Zanzibar & Tanzania</p>
           </div>
         </div>

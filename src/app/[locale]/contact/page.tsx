@@ -96,7 +96,25 @@ export default function ContactPage() {
                   </div>
                 </a>
 
-                {/* Email */}
+                {/* Email 1 */}
+                <a
+                  href="mailto:info@alshamzanzibar.com"
+                  className="flex items-center gap-4 p-5 bg-white border-2 border-brand-gold/30 hover:border-brand-gold rounded-2xl transition-colors group"
+                >
+                  <div className="w-12 h-12 bg-brand-gold rounded-xl flex items-center justify-center shrink-0">
+                    <svg viewBox="0 0 24 24" className="w-6 h-6 fill-white">
+                      <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">{t("email")}</p>
+                    <p className="text-brand-blue-dark font-bold group-hover:text-brand-gold transition-colors break-all">
+                      info@alshamzanzibar.com
+                    </p>
+                  </div>
+                </a>
+
+                {/* Email 2 */}
                 <a
                   href="mailto:Aliyshaib2017@gmail.com"
                   className="flex items-center gap-4 p-5 bg-white border-2 border-brand-gold/30 hover:border-brand-gold rounded-2xl transition-colors group"
