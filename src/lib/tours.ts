@@ -50,8 +50,8 @@ export const tours: TourWithPricing[] = [
       "/images/maalum-cave-2.jpeg",
       "/images/maalum-cave-3.jpeg",
     ],
-    includedFr: ["Transport", "Guide local", "Entrée incluse"],
-    includedEn: ["Transport", "Local guide", "Entry fee included"],
+    includedFr: ["Guide local", "Entrée incluse"],
+    includedEn: ["Local guide", "Entry fee included"],
   },
   {
     slug: "mnemba-island",
@@ -78,6 +78,8 @@ export const tours: TourWithPricing[] = [
     badge: "Populaire",
     includedFr: ["Bateau privé", "Guide francophone", "Matériel de snorkeling", "Plateau de fruits frais", "Frais d'entrée"],
     includedEn: ["Private boat", "French-speaking guide", "Snorkeling equipment", "Fresh fruit platter", "Entry fees"],
+    extrasFr: ["Snorkeling privé — 20€ par personne", "Sea food plat au déjeuner — 20€ par personne"],
+    extrasEn: ["Private snorkeling — 20€ per person", "Seafood lunch platter — 20€ per person"],
     pricingTiers: [
       { people: "1-2", price: "50€" },
       { people: "3-5", price: "40€" },
@@ -438,8 +440,8 @@ The site is known as a sea turtle conservation sanctuary:
       "/images/Salaam Cave 3.jpeg",
       "/images/Salaam Cave 4.jpeg",
     ],
-    includedFr: ["Transport", "Guide local", "Entrée à la grotte", "Interaction avec les tortues"],
-    includedEn: ["Transport", "Local guide", "Cave entry", "Turtle interaction"],
+    includedFr: ["Guide local", "Entrée à la grotte", "Interaction avec les tortues"],
+    includedEn: ["Local guide", "Cave entry", "Turtle interaction"],
   },
 ];
 

@@ -28,6 +28,7 @@ export default function TourDetailPage({
   const title = locale === "fr" ? tour.titleFr : tour.titleEn;
   const description = locale === "fr" ? tour.longDescriptionFr : tour.longDescriptionEn;
   const included = locale === "fr" ? tour.includedFr : tour.includedEn;
+  const extras = locale === "fr" ? tour.extrasFr : tour.extrasEn;
   const duration = locale === "fr" ? tour.duration : tour.durationEn;
 
   const related = tours
@@ -108,6 +109,27 @@ export default function TourDetailPage({
                       <span className="w-5 h-5 bg-brand-gold/20 rounded-full flex items-center justify-center shrink-0">
                         <svg viewBox="0 0 24 24" className="w-3 h-3 fill-brand-gold">
                           <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                      </span>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {/* Extra Services */}
+            {extras && extras.length > 0 && (
+              <div>
+                <h2 className="text-2xl font-black text-brand-blue-dark mb-4">
+                  {t("extras")}
+                </h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {extras.map((item) => (
+                    <li key={item} className="flex items-center gap-2 text-gray-700">
+                      <span className="w-5 h-5 bg-brand-blue/20 rounded-full flex items-center justify-center shrink-0">
+                        <svg viewBox="0 0 24 24" className="w-3 h-3 fill-brand-blue">
+                          <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z" />
                         </svg>
                       </span>
                       {item}

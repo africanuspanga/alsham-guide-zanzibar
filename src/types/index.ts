@@ -14,6 +14,8 @@ export interface Tour {
   badge?: string;
   includedFr?: string[];
   includedEn?: string[];
+  extrasFr?: string[];
+  extrasEn?: string[];
 }
 
 export interface SafariPackage {
