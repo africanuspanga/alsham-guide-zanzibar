@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -8,12 +9,14 @@ export async function generateMetadata({
   const { locale } = await params;
   if (locale === "en") {
     return {
+      alternates: pageAlternates(locale, "/taxi-transfer"),
       title: "Taxi Transfer Zanzibar",
       description:
         "Private taxi transfers across Zanzibar — airport pickups, hotel transfers, Stone Town tours and more. Reliable, comfortable and available 24/7.",
     };
   }
   return {
+    alternates: pageAlternates(locale, "/taxi-transfer"),
     title: "Transfert Taxi Zanzibar",
     description:
       "Transferts en taxi privé à Zanzibar — transferts aéroport, hôtels, visites de Stone Town et plus encore. Fiable, confortable et disponible 24h/24.",

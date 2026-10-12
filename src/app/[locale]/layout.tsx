@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageAlternates, SITE_URL } from "@/lib/seo";
 import { Geist } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -22,6 +23,8 @@ export async function generateMetadata({
 
   if (locale === "en") {
     return {
+      metadataBase: new URL(SITE_URL),
+      alternates: pageAlternates(locale, ""),
       title: {
         default: "AlSham Guide Zanzibar — Your French-Speaking Guide",
         template: "%s | AlSham Guide Zanzibar",
@@ -65,6 +68,8 @@ export async function generateMetadata({
   }
 
   return {
+    metadataBase: new URL(SITE_URL),
+    alternates: pageAlternates(locale, ""),
     title: {
       default: "AlSham Guide Zanzibar — Votre Guide Francophone",
       template: "%s | AlSham Guide Zanzibar",
@@ -125,6 +130,31 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <body className={`${geist.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TravelAgency",
+              name: "AlSham Guide Zanzibar",
+              url: `${SITE_URL}/${locale}`,
+              logo: `${SITE_URL}/alsham-logo.png`,
+              image: `${SITE_URL}/images/island-paradise.jpg`,
+              email: "info@alshamzanzibar.com",
+              telephone: "+255777596239",
+              priceRange: "€€",
+              knowsLanguage: ["fr", "en"],
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Zanzibar Town",
+                addressRegion: "Zanzibar",
+                addressCountry: "TZ",
+              },
+              geo: { "@type": "GeoCoordinates", latitude: -6.1603, longitude: 39.1996 },
+              areaServed: ["Zanzibar", "Tanzania"],
+            }),
+          }}
+        />
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>

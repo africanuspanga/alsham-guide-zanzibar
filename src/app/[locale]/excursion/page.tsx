@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
 import { getLocale, getTranslations } from "next-intl/server";
 import HeroSection from "@/components/sections/HeroSection";
 import TourCardServer from "@/components/ui/TourCardServer";
@@ -12,12 +13,14 @@ export async function generateMetadata({
   const { locale } = await params;
   if (locale === "en") {
     return {
+      alternates: pageAlternates(locale, "/excursion"),
       title: "Excursions Zanzibar",
       description:
         "Explore all our Zanzibar excursions: Prison Island, Mnemba Island, Safari Blue, Jozani Forest, Nakupenda Beach and more. Book with your French-speaking guide.",
     };
   }
   return {
+    alternates: pageAlternates(locale, "/excursion"),
     title: "Excursions Zanzibar",
     description:
       "Découvrez toutes nos excursions à Zanzibar : Prison Island, Mnemba Island, Safari Blue, Forêt de Jozani, Plage de Nakupenda et bien plus. Réservez avec votre guide francophone.",

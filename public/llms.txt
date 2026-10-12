@@ -4,7 +4,8 @@
 AlSham Guide Zanzibar is a local French-speaking tour guide service based in Zanzibar, Tanzania. We specialize in organizing excursions, safaris, taxi transfers, and car rentals for visitors to Zanzibar and mainland Tanzania.
 
 ## Contact Information
-- Website: http://www.alshamzanzibar.com
+- Website: https://www.alshamzanzibar.com
+- Email: info@alshamzanzibar.com
 - WhatsApp: +255 777 596 239
 - Phone: +255 777 596 239
 - Languages: French, English
@@ -12,7 +13,7 @@ AlSham Guide Zanzibar is a local French-speaking tour guide service based in Zan
 ## Services
 
 ### Excursions in Zanzibar
-We offer 13+ curated excursions including:
+We offer 15 curated excursions (prices in EUR per person) including:
 - **Prison Island (Changuu Island)**: Historic island with giant tortoises
 - **Mnemba Island**: Dolphin watching, snorkeling, and sandbank visits
 - **Safari Blue**: Full-day sea excursion in Menai Bay
@@ -26,10 +27,14 @@ We offer 13+ curated excursions including:
 - **Forodhani Gardens**: Night market experience
 - **Quad Tour**: Island exploration by ATV
 - **Blue Lagoon**: Crystal clear waters for snorkeling
+- **Nakupenda Bis**: Private sandbank experience
+- **Salaam Cave**: Natural cave pool for swimming
 
 ### Tanzania Safaris
-- **Serengeti + Ngorongoro**: 3 Days / 2 Nights safari
-- **Mikumi National Park**: 3 Days / 2 Nights safari
+- **Day Trip Safari — Mikumi National Park**: 1 day, round-trip flight, 390€ per person
+- **Tarangire & Ngorongoro**: 2 Days / 1 Night, price on request
+- **Mikumi National Park**: 3 Days / 2 Nights, 350€ - 450€ per person
+- **Serengeti + Ngorongoro**: 3 Days / 2 Nights, price on request
 
 ### Transportation Services
 - **Taxi Transfers**: Airport, hotel, and city transfers

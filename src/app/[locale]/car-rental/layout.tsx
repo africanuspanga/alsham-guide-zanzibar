@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -8,12 +9,14 @@ export async function generateMetadata({
   const { locale } = await params;
   if (locale === "en") {
     return {
+      alternates: pageAlternates(locale, "/car-rental"),
       title: "Car Rental Zanzibar",
       description:
         "Rent a car in Zanzibar with or without a driver. Airport pickups, island-wide coverage, 4x4s, SUVs and sedans available 24/7. Book now.",
     };
   }
   return {
+    alternates: pageAlternates(locale, "/car-rental"),
     title: "Location de Voiture Zanzibar",
     description:
       "Louez une voiture à Zanzibar avec ou sans chauffeur. Transferts aéroport, couverture toute l'île, 4x4, SUV et berlines disponibles 24h/24. Réservez maintenant.",

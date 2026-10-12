@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTourBySlug } from "@/lib/tours";
+import { pageAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -17,6 +18,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: pageAlternates(locale, `/excursion/${slug}`),
     openGraph: {
       title: `${title} | AlSham Guide Zanzibar`,
       description,

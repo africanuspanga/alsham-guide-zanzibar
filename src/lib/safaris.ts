@@ -8,7 +8,7 @@ export const safariPackages: SafariPackage[] = [
     descriptionFr: "Le Safari d'une journée à Mikumi National Park pour faire la visite dans le parc. Départ à 5h du matin, vol direct aller-retour, safari en jeep avec déjeuner inclus.",
     descriptionEn: "A one-day safari to Mikumi National Park. Departure at 5am, direct round-trip flight, jeep safari with lunch included.",
     duration: "1 Journée",
-    price: "380€ par personne",
+    price: "390€ par personne",
     coverImage: "/images/Day trip Safari.jpeg",
     images: [
       "/images/Day trip Safari.jpeg",
