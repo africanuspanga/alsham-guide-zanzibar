@@ -80,10 +80,9 @@
     "emailLabel": "Votre Email",
     "messageLabel": "Votre Message",
     "submitBtn": "Envoyer",
-    "careersTitle": "Carrières",
-    "careersBody": "Tous les recrutements officiels d'AlSham Guide Zanzibar sont annoncés sur ce site. Vous souhaitez travailler dans le tourisme à Zanzibar ? Commencez par un CV clair :",
-    "careersLink": "découvrez les modèles de CV de CV Chap Chap (en anglais)",
-    "careersEnd": "."
+    "careersBefore": "Tous les",
+    "careersLink": "recrutements",
+    "careersAfter": "et offres de carrière officiels d'AlSham Guide Zanzibar sont publiés sur ce site, notre site officiel."
   },
   "booking": {
     "title": "Réserver ce Tour",

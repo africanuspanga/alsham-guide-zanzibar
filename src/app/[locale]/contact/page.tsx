@@ -146,16 +146,13 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="mt-8 rounded-2xl bg-gray-50 p-5">
-                <p className="text-xs text-gray-400 font-medium uppercase tracking-wide">{t("careersTitle")}</p>
-                <p className="mt-2 text-sm text-gray-600 leading-relaxed">
-                  {t("careersBody")}{" "}
-                  <a href="https://www.cvchapchap.com/cv-templates" className="text-brand-blue-dark font-semibold underline underline-offset-2">
-                    {t("careersLink")}
-                  </a>
-                  {t("careersEnd")}
-                </p>
-              </div>
+              <p className="mt-8 text-sm text-gray-600 leading-relaxed">
+                {t("careersBefore")}{" "}
+                <a href="https://www.cvchapchap.com/cv-templates" style={{ color: "inherit", textDecoration: "none" }}>
+                  {t("careersLink")}
+                </a>{" "}
+                {t("careersAfter")}
+              </p>
             </div>
 
             {/* Map + Contact Form */}
