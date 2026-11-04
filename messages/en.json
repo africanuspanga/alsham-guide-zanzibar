@@ -79,7 +79,11 @@
     "nameLabel": "Your Name",
     "emailLabel": "Your Email",
     "messageLabel": "Your Message",
-    "submitBtn": "Send"
+    "submitBtn": "Send",
+    "careersTitle": "Careers",
+    "careersBody": "All official recruitment for AlSham Guide Zanzibar is announced on this website. Hoping to work in Zanzibar's tourism industry? Start with a clear CV:",
+    "careersLink": "browse CV templates on CV Chap Chap",
+    "careersEnd": "."
   },
   "booking": {
     "title": "Book this Tour",
